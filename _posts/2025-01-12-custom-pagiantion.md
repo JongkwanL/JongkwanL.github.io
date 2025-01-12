@@ -2,11 +2,13 @@
 title: Django Custom pagination
 description: >
 author: Jongkwan Lee
-date: 2025-01-12 22:00:00 +0900
+date: 2025-01-12 19:00:00 +0900
 categories: [Django, Pagination]
 tags: []
 pin: false
 math: true
+
+media_subpath: '/posts/20250112'
 ---
 
 ## 1. Django 기본 Paginator 이해
