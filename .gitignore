@@ -1,27 +1,69 @@
-# Bundler cache
-.bundle
-vendor
-Gemfile.lock
+# -------------------------------
+# OS 및 에디터에서 생성하는 임시 파일들
+# -------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Jekyll cache
-.jekyll-cache
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 일반 에디터/백업 파일
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+._*
+
+# -------------------------------
+# IDE 및 편집기 설정 (개인 설정은 커밋하지 않는 것을 권장)
+# -------------------------------
+# IntelliJ / JetBrains (프로젝트별 공유할 설정은 개별적으로 관리)
+*.iml
+.idea/
+
+# Visual Studio Code (프로젝트별 공유할 설정은 필요에 따라 커밋)
+# 만약 개인 설정이라면 아래 라인의 주석을 해제하세요.
+#.vscode/
+
+# -------------------------------
+# Jekyll 관련
+# -------------------------------
+# Jekyll 빌드 결과물
+_site/
+.jekyll-cache/
 .jekyll-metadata
-_site
 
-# RubyGems
-*.gem
+# -------------------------------
+# Ruby/Bundler 관련 (필요에 따라)
+# -------------------------------
+*.rbc
+.cache/
 
-# NPM dependencies
-node_modules
-package-lock.json
+# Gemfile.lock의 경우, 애플리케이션이라면 커밋해도 되지만,
+# 라이브러리라면 아래처럼 무시할 수 있습니다.
+# Gemfile.lock
 
-# IDE configurations
-.idea
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/tasks.json
+# -------------------------------
+# Sass 관련 (빌드 결과물)
+# -------------------------------
+.sass-cache/
 
-# Misc
-_sass/vendors
-assets/js/dist
+# -------------------------------
+# Node.js 관련 (사용 시)
+# -------------------------------
+node_modules/
+
+# -------------------------------
+# 환경변수 파일 (보안상의 이유로 커밋하지 않는 것을 권장)
+# -------------------------------
+.env
+
+# -------------------------------
+# Dev Container 관련 (필요한 설정 파일은 버전 관리)
+# -------------------------------
+.devcontainer/tmp/
